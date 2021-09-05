@@ -1,0 +1,280 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'montserrat';
+    font-size: 16px;
+    color: #333;
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.600) , black) , url(../images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+.logo{
+
+    float: left;
+    height: 130px;
+    margin-top: 20px;
+
+}
+.main-nav{
+    float: right;
+    margin-top: 50px;
+    display: flex;
+    list-style: none;
+
+}
+.main-nav li{
+margin-left: 30px;
+margin-right: 20px;
+
+
+}
+.main-nav li a{
+text-decoration: none;
+text-decoration: none;
+color: white;
+text-transform: uppercase;
+
+
+}
+.main-nav li a:hover{
+    color: rgb(75, 197, 71);
+}
+.hero-box{
+    position: absolute;
+    top: 40%; left: 30%;
+    margin-left: 55px;
+
+
+}
+.btn{
+    background-color: orange;
+    text-decoration: none;
+    border: solid white 1px ;
+    margin-left: 25px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px 15px 15px 15px;
+    font-size: large;
+    font-weight: bold;
+
+}
+h1{
+    color: white;
+    font-size: 2rem;
+    letter-spacing: 3px;
+    margin-bottom: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+
+
+}
+.btn:hover{
+    color: yellowgreen;
+    background-color: rgba(0, 0, 0, 0);
+}
+section{
+    padding: 40px 0px;
+}
+h2{
+    text-align: center;
+    font-size: 1.6rem;
+    margin-bottom: 30px;
+    font-weight: 600;
+ 
+    letter-spacing: 3px;
+
+    text-transform: uppercase;
+}
+hr{
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    background-color: tomato;
+    color: tomato;
+    border: solid tomato;
+
+}
+.zed{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+}
+.horas i{
+    color: darkorange;
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.meal img{
+    width: 100%;
+    opacity: .6;
+    transform: scale(1.1);
+    transition: 1.5s;
+}
+.meal{
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+}
+.meal img:hover{
+    transform: scale(1);
+    opacity: 1;
+}
+.work-left{
+    text-align: right;
+    padding-right: 3%;
+}
+.work-left img{
+    width: 40%;
+}
+.work-right{
+    padding-top: 80px;
+    text-align: left;
+    padding-left: 3%;
+    margin-top: -450px;
+    margin-left: 530px;
+
+}
+.step{
+    display: flex;
+    margin-bottom: 30px;
+}
+.step div{
+    border: solid orange 2px;
+    border-radius: 50%;
+    margin-right: 25px;
+    width: 50px;
+    height: 50px;
+    padding: 12px;
+    font-size: 20px;
+    color: orange;
+    font-weight: bold;
+    text-align: center;
+}
+.step p{
+    font-size: 20px;
+}
+.step-btn{
+    margin-left: 30px;
+}
+.step-btn img{
+    height: 50px;
+}
+.city img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.testimonials{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.600) , black) , url(../images/back-customers.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    color: white;
+
+}
+.testimonials h2{
+    color: rgb(255, 255, 255);
+    margin-top: 50px;
+
+}
+.testimonials i{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-bottom: 10px;
+
+}
+.testimonials p{
+    color: white;
+    line-height: 150%;
+    margin-bottom: 20px;
+
+}
+.testimonials img{
+    border-radius: 50%;
+    margin-right: 10px;
+    height: 80px;
+    width: 80px;
+    vertical-align: middle;
+}
+.offers{
+    background-color: cornsilk;
+    
+}
+
+
+.rdr{
+    background-color: white;
+    border: solid rgba(0, 0, 0, 0.137) .5px;
+    position: relative;
+    float: right;
+}
+.redf{
+    color: rgb(255, 183, 0);
+    font-size: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+.ryr{
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-top: 10px;
+
+}
+.kkiu{
+    background-color: orange;
+    text-decoration: none;
+    border: solid rgb(0, 0, 0) 1px ;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px 15px 10px 15px;
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-left: 90px;
+    position: absolute;
+}
+.kkiu:hover{
+    background-color: rgba(120, 241, 0, 0);
+    color: black;
+}
+.cdj p{
+    text-align: center;
+    
+}
+input[type=text]{
+    width: 100%;
+    padding: 5px;
+    border-radius: 4px;
+    border: solid 2px blanchedalmond;
+    margin-bottom: 20px;
+}
+select{
+    width: 50%;
+    color: brown;
+    padding: 5px;
+}
+button{
+    padding: 10px;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+    width: 10%;
+    border-radius: 10px;
+}
+button:hover{
+
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(0, 0, 0);
+}
+textarea{
+    width: 70%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
